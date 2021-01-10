@@ -1,0 +1,14 @@
+
+ /* Algoritmo é uma sequência finita
+ de instruções bem definidas e não ambíguas,
+ para resolução de uma tarefa.*/
+ 
+ // Bem definito pra quem? para quem vai executar a tarefa.
+
+ /* Computador o público alvo que mais precisa de detalhamento,
+    não existe o óbvio para o computador e um bom progrador 
+    é um bom resolvedor de problemas, buscando as melhores soluções.*/
+ /* O poder de um programador não esta em saber mil linguagens
+    de programação e sim em racionalizar e resolver problemas.(não se revolve
+    problemas com código, será feito somente quando o problema estiver detalhado e 
+    resolvido.)

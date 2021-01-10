@@ -1,0 +1,23 @@
+-- algorismos compostos por instruções e dados
+-- intruções manipulam os dados para chegar ao resultado desejado
+-- tipos de dados
+1- Inteiro-- números positivos ou negativos não fracionados.
+2- Real-- positivos,negativos e fracionários.
+3- Caracter-- "Pedro"-- 
+4- Lógico-- verdadeiro ou falso
+// variáveis podem ser alteradas durante a execução ja constantes não.ex:pi,velocidade da luz.
+
+exemplo aula 4
+
+let nomeCompleto = "Michael Vargas da silveira,";
+let apelido = "maicom";
+let idade = 33;
+let dataNascimento = "29.11.1987";
+let localNascimento = "Porto Alegre";
+let altura = "1.72";
+let trabalho = "trabalhando como operador de produção."
+let apresentacao = ("Meu nome é " + nomeCompleto + "(sou conhecido[a] como " +
+ apelido + ") e tenho " + idade + " anos. Nasci no dia " + dataNascimento +
+ ", na cidade de " + localNascimento + ". Tenho " + altura +
+ "m de altura e atualmente estou " + trabalho);
+console.log(apresentacao);

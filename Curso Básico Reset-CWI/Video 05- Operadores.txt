@@ -1,0 +1,50 @@
+ //Exercício 1-- verificar igualdade de Strings
+
+  mesmoNome = nomeDoBeltrano == nomeDoFulano;
+  console.log(mesmoNome);*/ 
+
+//Exercício 2-- verificar idade
+
+/*maiorDeIdade = "";
+  idade = 19;
+  if(idade >= 18){
+  maiorDeIdade = "Adulto";
+  }else {
+  maiorDeIdade = "Menor de idade.";
+ }*/
+
+// Exercício 3
+
+/* valor = 100;
+    valorComJuros= valor * 1.1; 
+    console.log("O valor com juros é  ",valorComJuros);*/
+// Exercício 4
+
+/*item1= 1;
+  item2= 2;
+  item3= 3;
+  item4= 4;
+  item5= 5;
+ mediaItens = (item1+item2+item3+item4+item5) / 5;
+ console.log(mediaItens);*/
+// Exercício 5-- caulculos diversos com saldo final
+
+/* rLiquida= 1000;
+ cProdutos= 400;
+ lBruto = rLiquida - cProdutos;
+ mBruta = (rLiquida / lBruto) * 100;
+console.log(mBruta);*/
+//Exercício 6
+
+/* saldo = 1000.00;
+ vCalca = 99.90;
+ salario = 2500.00;
+ doacao = 0.10;
+ a = saldo - vCalca;
+ b = a + salario;
+ c = b - doacao;
+ d = c * 1.25 - c;
+ e = c / 4;
+ ar = c - d;
+ saldoFinal = ar / 2;
+console.log( " O saldo final é ",saldoFinal);*/

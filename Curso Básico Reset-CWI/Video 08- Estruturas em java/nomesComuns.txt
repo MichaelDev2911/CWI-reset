@@ -1,0 +1,38 @@
+
+package nomescomuns;
+
+/**
+ *
+ * @author michael
+ */
+public class NomesComuns {
+
+    public static void main(String[] args) {
+    String  nomesComuns []= {"Laura","Beatriz", "Maria","Ana", "Júlia",
+"Alice","Mariana","Larissa","Maria Eduarda","Sofia","Isabela",
+"Helena","Camila","Lara", "Valentina","Letícia", "Luana",
+ "Amanda","Yasmim", "Sofhia", "Rebeca", "Juliana", "Bruna",
+ "Cecília", "Fernanda", "Isadora", "Lorena", "Lívia", "Manuela",
+ "Vitória", "Miguel", "Lucas", "Guilherme", "Gabriel", "Arthur", 
+"Enzo", "Rafael", "João", "Gustavo", "Pedro", "Bernardo",
+ "Matheus", "Davi", "Heitor", "Henrique", "Bruno", "Samuel",
+ "Felipe", "Lorenzo", "Benjamim", "Vinícius", "Rodrigo", 
+"Eduardo", "Diego", "Antônio", "Leonardo", "Noah", "Nicolas", "Daniel", "Thiago"};
+ String nome= "Michael";
+boolean nomes= false;
+for(int c=0; c< nomesComuns.length;c++){
+
+  if(nome==nomesComuns[c]){
+nomes= true;
+break;
+
+  }
+}
+  if(nomes){
+      System.out.println("É, nome comum :P "+nome);
+  }else {
+      System.out.println("Diferentão, hein? XD "+nome);
+  }
+    }
+    
+}

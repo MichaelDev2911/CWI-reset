@@ -1,0 +1,27 @@
+
+package saldofinal;
+
+/**
+ *
+ * @author michael
+ */
+public class SaldoFinal {
+
+    
+    public static void main(String[] args) {
+
+        float saldo = 1000.00f;
+        float vCalca = 99.90f;
+        float salario = 2500.00f;
+        float doacao = 0.10f;
+        float calcA= saldo - vCalca;
+        float calcB= calcA + salario;
+        float calcC= calcB - doacao;
+        float calcD= calcC * 1.25f - calcC;
+        float calcE= calcC / 4;
+        float calcAr= calcC - calcD;
+        float saldoFinal= calcAr / 2;
+        System.out.println("o saldo final é "+ saldoFinal);
+    }
+    
+}

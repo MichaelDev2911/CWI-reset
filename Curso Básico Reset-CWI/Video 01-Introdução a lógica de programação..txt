@@ -1,0 +1,38 @@
+ 
+ Exemplo video passar manteiga no pão.
+//gustavo guanabara/cursoEmVideo/Algoritmos
+ Algoritimos computacionais-- São passos a serem seguidos
+ /*por um módulo processador e seus respectivos usuários 
+que quando executados na ordem correta , conseguem realizar 
+determinada tarefa.*/
+-- fluxograma
+--Nassi shneiderman
+--portugol(pseudocódigo)
+
+ Algoritmo rotinaMatinal
+
+ inicio
+  se o despertador tocar
+  levantar com calma e o minimo de ruído possível
+  desligar despertador
+  
+  se(crianças acordadas)
+    fazer mama
+    colocar bico
+    esperar dormir
+  senao
+    ir ao banheiro
+    abrir porta 
+    lavar o rosto 
+    escovar os dentes
+    sair banheiro
+    fechar porta
+    se vestir
+    pegar celular
+    pegar carteira
+    pegar chaves
+    abrir porta da frente 
+    sair fechar porta 
+    ir ao trabalho 
+fim
+  

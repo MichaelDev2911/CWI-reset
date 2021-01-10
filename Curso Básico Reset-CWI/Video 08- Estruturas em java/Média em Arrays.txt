@@ -1,0 +1,37 @@
+
+package mediavaloresmatriz;
+
+/**
+ *
+ * @author michael
+ */
+public class MediaValoresMatriz {
+
+   
+    public static void main(String[] args) {
+       double  matrizValores [] = {5.0,5.0,5.0,5.0,5.0};
+       // valores iguais para testar se a média esta bem executada.
+ int tamanhoMatriz = matrizValores.length;
+ double soma=0;
+// a soma tem que ser inicializa fora da repetição para ser executada corretamente.
+  for(int c = 0;c < tamanhoMatriz;c++){
+
+  soma = soma + matrizValores[c];
+      System.out.print("Valor "+(c+1)+ ": ");
+  System.out.println(matrizValores[c]);
+
+}
+ double media= soma / tamanhoMatriz;
+        System.out.println("A media dos valores informados é: "+media);
+    }
+    
+}
+/*
+-- Resultado --
+Valor 1: 5.0
+Valor 2: 5.0
+Valor 3: 5.0
+Valor 4: 5.0
+Valor 5: 5.0
+A media dos valores informados é: 5.0
+*/

@@ -1,0 +1,29 @@
+
+package lucrobruto;
+
+/**
+ *
+ * @author michael
+ */
+public class LucroBruto {
+
+    
+    public static void main(String[] args) {
+
+        /*let rLiquida= 1000;
+let cProdutos= 400;
+let lBruto = rLiquida - cProdutos;
+let mBruta = (rLiquida / lBruto) * 100;
+console.log(mBruta);*/
+        
+        float receitaLiquida=1000f;
+        float custoProdutos = 400f;
+        float lucroBruto = receitaLiquida - custoProdutos;
+        float mediaBruta = (receitaLiquida / lucroBruto) * 100;
+        /* String.format é utilizado para formatar o resultado e no caso %.2f
+         * diz que serão duas casas após a virgula.
+        */
+        System.out.println(String.format("Media bruta igual a %.2f", mediaBruta)); 
+    }
+    
+}

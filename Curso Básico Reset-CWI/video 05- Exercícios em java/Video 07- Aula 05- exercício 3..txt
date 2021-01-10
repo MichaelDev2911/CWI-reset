@@ -1,0 +1,18 @@
+
+package juros;
+
+/**
+ *
+ * @author michael
+ */
+public class Juros {
+
+ 
+    public static void main(String[] args) {
+
+        int valor = 100;
+      float  valorComJuros = valor * 1.1f;
+        System.out.println("O valor com juros é "+ valorComJuros);
+    }
+    
+}

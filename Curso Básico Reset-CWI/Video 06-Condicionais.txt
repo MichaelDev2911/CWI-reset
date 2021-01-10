@@ -1,0 +1,38 @@
+ 
+ peso = 55.00;
+ altura = 1.78;
+ imc = peso / (altura ** 2);
+ grau = 0;
+  status="";
+  if(imc < 18.50 ){
+  status = "Magreza";
+  grau = 0;
+
+ //>= 18.50 && imc <=
+ }else if(imc < 24.99){
+ status = "Normal";
+ grau = 0;
+
+ //>=25.00 && imc <=
+ }else if(imc < 29.99){
+ status = "Sobrepeso";
+ grau = 1;
+
+ //>=30.00 && imc <=
+ }else if(imc < 39.99){
+  status= "Obesidade";
+  grau = 2;
+
+ } else{
+  status= "Obesidade grave";
+  grau= 3;
+  
+ }
+ console.log("Seu imc é ", imc.toFixed(2), "e seu estado é de",status, "Grau ", grau, "no indice da OMS(Organização Mundial da Saúde).");
+
+ if (grau >0){
+  console.log("Cuidado! Você está acima do peso recomendado pela OMS");
+ } 
+ if(grau == 3 ){
+ console.log("E importante procurar um médico para avaliar sua saúde");
+ }

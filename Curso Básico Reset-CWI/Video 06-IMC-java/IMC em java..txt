@@ -1,0 +1,57 @@
+
+package isimc;
+
+/**
+ *
+ * @author michael
+ */
+public class IsIMC {
+
+   
+    public static void main(String[] args) {
+      
+  float peso = 200f;
+  float altura = 1.78f;
+  double imc = peso / Math.pow(altura,2);
+        
+int grau = 0;
+String  status="";
+  if(imc < 18.50 ){
+  status = "Magreza";
+  grau = 0;
+
+ //>= 18.50 && imc <=
+ }else if(imc < 24.99){
+ status = "Normal";
+ grau = 0;
+
+ //>=25.00 && imc <=
+ }else if(imc < 29.99){
+ status = "Sobrepeso";
+ grau = 1;
+
+ //>=30.00 && imc <=
+ }else if(imc < 39.99){
+  status= "Obesidade";
+  grau = 2;
+
+ } else{
+  status= "Obesidade grave";
+  grau= 3;
+  
+ }
+ String isImc= String.format("%.2f", imc);
+ //tem uma forma de colocar direto também.
+        System.out.println("Seu imc é "+ isImc +
+                " e seu estado é de "+status+ "Grau "+ grau+
+                " no indice da OMS(Organização Mundial da Saúde).");
+
+ if (grau >0){
+     System.out.println("Cuidado! Você está acima do peso recomendado pela OMS.");
+ } 
+ if(grau == 3 ){
+     System.out.println("É importante procurar um médico para avaliar sua saúde.");
+ }
+    }
+    
+}

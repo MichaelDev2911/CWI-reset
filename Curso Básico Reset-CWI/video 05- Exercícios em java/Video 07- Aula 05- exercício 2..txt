@@ -1,0 +1,31 @@
+
+package maioridade;
+
+/**
+ *
+ * @author michael
+ */
+public class MaiorIdade {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /* no caso abaixo o resultado na tela é true ou false
+         *depende do valor inserido na variável idade.*/
+        
+        int idade = 33;
+        boolean maiorIdade= (idade>=18);
+        System.out.println(maiorIdade);
+        //Aqui será apresentado a string é menor ou maior de idade.
+      /*if(idade >=18){
+          maiorIdade=" É maior de idade";
+          System.out.println(maiorIdade);
+      }else {
+          maiorIdade= " É menor de idade";
+          System.out.println(maiorIdade);
+    }
+    
+ }*/
+}
+}

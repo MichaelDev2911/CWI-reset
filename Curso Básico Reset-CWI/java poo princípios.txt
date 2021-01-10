@@ -1,0 +1,11 @@
+ Java Orientado a objetos
+
+ -- todo software em java tem que ser...
+
+-- Confiável- isolamento entre as partes do software o torna seguro.
+-- Oportuno- ao dividir em partes, pode se desenvolver em paralelo.
+-- Manutenível- atualizar o software é mais fácil por sua estrutura em objetos.
+-- Extensível- o software não é estático, ele deve crescer para continuar sendo útil.
+-- Reutilizável- podemos utilizar objetos que criamos em um sistema em outros sistemas.
+-- natural- Algo mais fácil de entender,se preocupa mais coma funcionalidade que os 
+ddetalhes de implementação.

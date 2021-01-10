@@ -1,0 +1,71 @@
+ 
+ Exercício 1 // função imprimir com um valor,argumento,parâmetro.
+function imprimir(i){
+ console.log(i);
+/* nesta função não retorna o valor,mais sim imprimi o valor
+ * valor diretamente na tela. */
+}
+ imprimir(9);
+ 
+ Exercício 1 // retornando o valor,argumento,parâmetro.
+
+function imprimir(a){
+   return (a);
+}
+ // abaixo foi criado um variável para pegar o calor retornado da função.
+
+ mostraTela= imprimir();
+
+ Exercício 2
+
+   /*função pega os dois valores e compara se são iguais e retorna true ou false.*/
+
+  function nomesIguais(nomeFulano,nomeBeltrano){
+  return(nomeFulano==nomeBeltrano)
+}
+
+  function imprimir(idade){
+     // Exemplo 1-- mesmo retorno sendo true ou false.
+   return idade >= 18
+     // Exemplo 2-- opção mais verbosa usando a condicional if,else.
+  /* if(idade >= 18){
+      idade= true
+     }else {
+      idade=false
+    }
+  return i */
+}
+
+ Exercício 3
+  // calculo de 10%, sendo o valor de 100 o resultado 110.
+  function jurosSimples(valor){
+   return (valor * 1.1);
+ }
+
+ Exercício 4
+
+ function mediaValores(valor){/* a variável soma deve ficar fora do for
+                               * para que a soma aconteça de forma correta */
+  soma = 0;
+
+  for(c=0; c < valor.length;c++){ // for para varrer os valores digitados.
+ 
+   soma +=  valor[c];  // soma os valores repetição por repetição.
+ }
+  return  soma / valor.length; // retorna a soma do laço divido pela quantidade de valores.
+
+ }
+  mediaValores([1,2,3,4,5]); // (15/5) retorna 3.
+
+ Exercício 5 
+    /* Efetuado calculos para obtenção da margem bruta ou o resultado 
+     * é multiplicado por 100 para chegar em um valor percentual do valor */
+ function margemBruta(receitaLiquidaVendas, custoProdutosVendidos){
+     lucroBruto = receitaLiquidaVendas - custoProdutosVendidos
+      return (lucroBruto / receitaLiquidaVendas) * 100
+} 
+
+margemBruta(528459.11,632501.87)
+
+
+

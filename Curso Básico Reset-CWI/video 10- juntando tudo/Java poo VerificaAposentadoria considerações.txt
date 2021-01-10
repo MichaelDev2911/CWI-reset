@@ -1,0 +1,130 @@
+ 
+ Não consegui verificar a igualdade dos nomes pois dava um erro de incompatibilidade
+por ser um String e outro Array- criei 8 variaveis e colocou cada nome dentro para 
+poder verificar se realmente era funcionário e depois ver se ele poderia ou não sair de ferias.
+ outro fato foi não conseguri pegar o retorno da String do método verificarAposentadoria
+ para conseguir executar a mensagem, deixei o método sem retorno e peguei a resposta
+através da variavel mensagem, se alguem puder ajudar a melhorar por favor me avisa. Espero ja ter conseguido
+mais como aqui é um ambiente para um ajudar o outro aguardo resposta. michaelsilveira.castilho@yahoo.com.br 
+para contato.
+
+ // Super classe //
+package verificaaposentadoria;
+
+/**
+ *
+ * @author michael
+ */
+public class Funcionario {
+    public String nome;
+    private int idade;
+    private int anosTrabalho;
+    public String lista1= "Rhoger";
+    public String lista2= "Cléverson";
+    public String lista3= "Gleyberto";
+    public String lista4= "Nádio";
+    public String lista5= "Rosimeri";
+    public String lista6= "Regislane";
+    public String lista7= "Agripino";
+    public String lista8= "Wellison";
+    public String mensagem;
+    
+    
+    
+
+    public Funcionario(String nome, int idade, int anosTrabalho) {
+        this.nome = nome;
+        this.idade = idade;
+        this.anosTrabalho = anosTrabalho;
+    
+  }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getAnosTrabalho() {
+        return anosTrabalho;
+    }
+
+    public void setAnosTrabalho(int anosTrabalho) {
+        this.anosTrabalho = anosTrabalho;
+    }
+
+    
+    public void verificarAposentadoria(){
+            String verificar = this.getNome();
+           boolean funcionario;
+           
+            if (verificar.equals(this.lista1) ||verificar.equals(this.lista2)||
+                verificar.equals(this.lista3) ||verificar.equals(this.lista4)||
+                verificar.equals(this.lista5) ||verificar.equals(this.lista6)||
+                verificar.equals(this.lista7) ||verificar.equals(this.lista8)){
+                funcionario = true;
+                       
+                boolean porIdade = this.getIdade() >=65;
+                boolean porTempoTrabalho = this.getAnosTrabalho() >=30;
+                boolean porIdadeComTempoServico = this.getIdade() >=60 && this.getAnosTrabalho() >=25;
+                                
+
+                if(porIdade || porTempoTrabalho || porIdadeComTempoServico){
+                     this.mensagem = ("Parabéns! Você ja pode sair de ferias eternas :)");
+                }else{
+                     this.mensagem = ("Infelizmente ainda falta algum tempo. :(");
+                }
+            
+                
+            
+            }else{
+                System.out.println("Você não é funcionário, verifique a digitação.");
+            }
+           
+        
+
+        System.out.println(this.mensagem);
+   }
+}
+
+
+
+ // main principal //
+
+ 
+package verificaaposentadoria;
+
+/**
+ *
+ * @author michael
+ */
+public class VerificaAposentadoria {
+
+    public static void main(String[] args) {
+        Funcionario f = new Funcionario("Rhoger",61,25);
+        f.verificarAposentadoria();
+        
+    }
+    
+}
+
+ // Respostas possíveis //
+run:
+Parabéns! Você ja pode sair de ferias eternas :)
+CONSTRUÍDO COM SUCESSO (tempo total: 0 segundos)
+
+Você não é funcionário, verifique a digitação.
+
+run:
+Infelizmente ainda falta algum tempo. :(
+CONSTRUÍDO COM SUCESSO (tempo total: 0 segundos

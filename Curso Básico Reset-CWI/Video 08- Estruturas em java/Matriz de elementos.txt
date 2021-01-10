@@ -1,0 +1,28 @@
+
+package matrizdeelementos;
+
+/**
+ *
+ * @author michael
+ */
+public class MatrizDeElementos {
+
+   
+    public static void main(String[] args) {
+       
+  //toda matriz tem a posição 0 como inicial e não 1.neste caso 0,1,2,3,4.
+
+ String matrizNomes[] = {"Reseters", "Padawan","Gafanhoto","Michael", "CWI"};
+
+  int contadorMatriz= 0;
+  // se colocar o valor 1 na variável acima não mostrara o primeiro nome.
+    
+   while(contadorMatriz < matrizNomes.length){
+  String tela = matrizNomes[contadorMatriz];
+       System.out.println(tela);
+   contadorMatriz++;
+  
+   }
+    }
+    
+}

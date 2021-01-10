@@ -1,0 +1,3 @@
+-- linguagem de alto e baixo nivel
+-- compiladores e interpretadores
+-- c compilado javaScript interpretado pelo navegador
